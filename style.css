@@ -263,12 +263,12 @@ h2{
     }
     #mainmenu{
         height: 400px;
-        margin-top: 60%;
+        margin-top: 30%;
         width: 80%;
     }
     #diffmenu{
         height: 400px;
-        margin-top: 60%;
+        margin-top: 30%;
         width: 80%;
         padding: 30px;
         
@@ -284,7 +284,7 @@ h2{
     }
     table{
         width: 80%;
-        margin-top: 60%;
+        margin-top: 30%;
         height: 400px;
     }
     #repbtn{
