@@ -6,6 +6,7 @@
     font-style: normal;
   }
   
+  
 td{
     border:5px solid #17D47A;
     height:100px ;
@@ -240,6 +241,13 @@ h2{
     }
 }
 @media (max-width:768px){
+    html,body{
+        background-color: #093028;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+      }
     #menutitle{
         font-size: 20px;
     }
