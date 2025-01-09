@@ -51,7 +51,6 @@ table tr td:last-child {
     width: 50%;
     height: 400px;
     top:120px;
-   
     position: absolute;
     margin:auto;
     left: 22%;
@@ -293,7 +292,8 @@ h2{
     .endgame{
         font-size: 30px;
         left: 10%;
-        height: 400px;
+        height: 300px;
+        margin-top: 0%;
 
     }
     td:hover{
