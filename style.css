@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+* {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+td{
+    border:5px solid #17D47A;
+    height:100px ;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+   
+    font-size: 80px;
+    cursor: pointer;
+    color: #fff;
+}
+
+td:hover{
+    box-shadow: 1px 1px 7px 5px  #17D47A ;
+}
+
+table{
+    border-collapse: collapse ;
+   margin: auto;
+   margin-top: 5%;
+   width: 50%;
+   height: 600px;
+   
+}
+
+table tr:first-child td{
+    border-top:0 ;
+}
+table tr:last-child td{
+    border-bottom:0 ;
+}
+
+table tr td:first-child {
+    border-left:0 ;
+}
+table tr td:last-child {
+    border-right:0 ;
+}
+.endgame{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 400px;
+    top:120px;
+   
+    position: absolute;
+    margin:auto;
+    left: 22%;
+    text-align: center;
+    border-radius: 5px;
+    color: #17D47A;
+    font-size: 80px;
+    padding: 70px;
+    backdrop-filter: blur(155px);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px #17D47A;
+   
+}
+#repbtn{
+    margin: 50px 0 20px 0;
+    font-size: 70px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color:rgba(37, 172, 75, 0.1);
+    border: 2px solid #17D47A;
+    color: #17D47A;
+    
+}
+#repbtn:hover{
+    box-shadow: 1px 1px 7px 5px #ffffffc0;
+    cursor: pointer;
+}
+
+
+#bodyMenu{
+    background-image: url("wp.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+body{
+    background-image: url("wp.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#mainmenu{
+    
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    height: 600px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(50.3px);
+  -webkit-backdrop-filter: blur(7.3px);
+  border: 1px solid rgba(9, 48, 40, 0.02);
+}
+#menutitle{
+    color: #17D47A;
+    font-size: 60px;
+    font-weight: 700;
+    border-radius: 50px;
+    background-color:rgba(37, 172, 75, 0.1);
+    padding: 30px;
+    text-align: center;
+    border: 2px solid #17D47A;
+}
+#menutext,#difftext{
+    color: #17D47A;
+    font-size: 40px;
+    text-align: center;
+}
+#diffbtns,#modebtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+a{
+    text-decoration: none;
+    color: #17D47A;
+    background-color:rgba(37, 172, 75, 0.1);
+    padding: 50px;
+    border-radius: 70px;
+    font-size: 30px;
+    border: 2px solid #17D47A;
+}
+a:hover{
+    box-shadow: 1px 1px 7px 5px #17D47A;
+    cursor: pointer;
+}
+
+#diffmenu{
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    height: 600px;
+    padding: 40px;
+    display: none;
+    flex-direction: column;   
+    backdrop-filter: blur(50px);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}
+#backsect{
+   
+    display: flex;
+    justify-content: start;
+    
+}
+#backbtn{
+width:5%;
+text-align: center;
+cursor: pointer;
+font-size: 20px;
+padding: 15px;
+}
+h2{
+    color: #17D47A;
+    text-align: center;
+    font-size: 45px;
+}
+
+@media (max-width:1310px){
+    #menutitle{
+        font-size: 40px;
+    }
+    #menutext,#difftext{
+        font-size: 30px;
+    }
+    #diffbtns,#modebtns{
+        flex-direction: column;
+        
+    }
+    a{
+        font-size: 30px;
+        padding: 30px;
+        text-align: center;
+        margin: 10px 0px 20px 0px;
+    }
+    #backbtn{
+        font-size: 15px;
+        
+    }
+    #mainmenu{
+        height: 400px;
+        margin-top: 10%;
+        width: 80%;
+    }
+    #diffmenu{
+        height: 500px;
+        margin-top: 20%;
+        width: 50%;
+        padding: 30px;
+        
+
+    }
+    #diffmenu a{
+        padding: 20px;
+        font-size: 20px;
+       
+    }
+    h2{
+        font-size: 30px;
+    }
+    table{
+        width: 50%;
+        margin-top: 20%;
+        height: 500px;
+    }
+    #repbtn{
+        font-size: 30px;
+    }
+    .endgame{
+        font-size: 30px;
+        margin-top: 10%;
+        height: 400px;
+
+    }
+    td:hover{
+        box-shadow: none;
+    }
+    td{
+        font-size: 50px;
+        
+    }
+}
+@media (max-width:768px){
+    #menutitle{
+        font-size: 20px;
+    }
+    #menutext,#difftext{
+        font-size: 17px;
+    }
+    #diffbtns,#modebtns{
+        flex-direction: column;
+        
+    }
+    a{
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+        margin: 10px 0px 20px 0px;
+    }
+    #backbtn{
+        font-size: 15px;
+        
+    }
+    #mainmenu{
+        height: 400px;
+        margin-top: 60%;
+        width: 80%;
+    }
+    #diffmenu{
+        height: 400px;
+        margin-top: 60%;
+        width: 80%;
+        padding: 30px;
+        
+
+    }
+    #diffmenu a{
+        padding: 10px;
+        font-size: 15px;
+       
+    }
+    h2{
+        font-size: 30px;
+    }
+    table{
+        width: 80%;
+        margin-top: 60%;
+        height: 400px;
+    }
+    #repbtn{
+        font-size: 30px;
+    }
+    .endgame{
+        font-size: 30px;
+        left: 10%;
+        height: 400px;
+
+    }
+    td:hover{
+        box-shadow: none;
+    }
+    td{
+        font-size: 50px;
+        
+    }
+}
