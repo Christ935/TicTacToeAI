@@ -241,7 +241,7 @@ h2{
     }
 }
 @media (max-width:768px){
-    html,body{
+    body{
         background-color: #093028;
         margin: 0;
         padding: 0;
